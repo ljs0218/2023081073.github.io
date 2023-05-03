@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+hr {
+  opacity: 0.2;
+}
+
+li:hover {
+  margin-left: 15px;
+  list-style: circle;
+
+  background-color: rgb(250, 250, 250);
+  transition-property: background-color;
+  transition-duration: 0.1s;
+}
+
+.lang-html {
+  background-color: rgb(255, 218, 143);
+}
+
+.lang-css {
+  background-color: orange;
+}
+
+.lang-js {
+  background-color: rgb(255, 255, 0);
+}
+
+.lang-html,
+.lang-css,
+.lang-js {
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 3px;
+  border-radius: 4px;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.background {
+  background-color: rgb(255, 245, 230);
+  height: 300px;
+}
+
+.titleText {
+  color: rgba(0, 0, 0, 0.8);
+  padding-top: 30px;
+  padding-bottom: 16px;
+  font-size: 36px;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categoryList {
+  display: flex;
+  padding-top: 30px;
+}
+
+.categoryContent {
+  margin-bottom: 2px;
+}
+
+.categoryWrapper {
+  display: flex;
+  flex-direction: column;
+
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.04); /* x축, y축, 흐림정도, 번짐정도, 색상 */
+  padding: 10px 10px 4px 10px; /* top, right, bottom, left */
+  width: 300px;
+  margin: 10px;
+}
+
+.categoryDate {
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  align-self: flex-end;
+}

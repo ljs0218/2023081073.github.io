@@ -1,0 +1,165 @@
+{
+  "list": [
+    {
+      "date": "20230501",
+      "languages": ["html", "css"],
+      "items": [
+        {
+          "name": "207-1",
+          "url": "homework_8/ex207-1.html"
+        },
+        {
+          "name": "208-4",
+          "url": "homework_8/ex208-4.html"
+        },
+        {
+          "name": "208-5",
+          "url": "homework_8/ex208-5.html"
+        }
+      ]
+    },
+    {
+      "date": "20230501",
+      "languages": ["html", "css"],
+      "items": [
+        {
+          "name": "셀렉터 활용",
+          "url": "homework_8/ex4-09.html"
+        },
+        {
+          "name": "스타일 합치기 및 오버라이딩",
+          "url": "homework_8/ex4-08.html"
+        },
+        {
+          "name": "link 태그로 스타일 파일 불러오기",
+          "url": "homework_8/ex4-05.html"
+        },
+        {
+          "name": "스타일을 가진 웹 페이지",
+          "url": "homework_8/ex4-02.html"
+        }
+      ]
+    },
+    {
+      "date": "20230403",
+      "languages": ["html"],
+      "items": [
+        {
+          "name": "시간표 만들기",
+          "url": "homework_8/ex4-08.html"
+        },
+        {
+          "name": "이력서 만들기",
+          "url": "homework_6/ex2-29.html"
+        },
+        {
+          "name": "marquee-2",
+          "url": "homework_6/marquee_2.html"
+        },
+        {
+          "name": "2-20 링크 만들기",
+          "url": "homework_6/ex2-20.html"
+        },
+        {
+          "name": "2-24 target 속성 활용",
+          "url": "homework_6/ex2-24.html"
+        },
+        {
+          "name": "2-23 iframe을 이용한 신문 사이트",
+          "url": "homework_6/ex2-23.html"
+        }
+      ]
+    },
+    {
+      "date": "20230320",
+      "languages": ["html"],
+      "items": [
+        {
+          "name": "2-16_2 행 열 병합 표 생성",
+          "url": "homework_5/ex2-16-2"
+        },
+        {
+          "name": "2-17 이미지를 가지는 표 만들기",
+          "url": "homework_5/ex2-17"
+        },
+        {
+          "name": "2-16 정의 리스트 만들기",
+          "url": "homework_5/ex2-14"
+        },
+        {
+          "name": "2-14 중첩 리스트 만들기",
+          "url": "homework_5/ex2-16"
+        },
+        {
+          "name": "2-11 이미지 삽입",
+          "url": "homework_5/ex2-11.html"
+        }
+      ]
+    },
+    {
+      "date": "20230320",
+      "languages": ["html"],
+      "items": [
+        {
+          "name": "2-7 특수문자, 기호, 심볼",
+          "url": "homework_4/ex2-07.html"
+        },
+        {
+          "name": "hr 태그로 수평선 긋기",
+          "url": "homework_4/ex2-05.html"
+        },
+        {
+          "name": "타이틀 속성 툴팁 달기",
+          "url": "homework_4/ex2-03.html"
+        }
+      ]
+    },
+    {
+      "date": "20230313",
+      "languages": ["html"],
+      "items": [
+        {
+          "name": "2-10 div 블록과 inline 태그",
+          "url": "homework_3/ex2-10.html"
+        },
+        {
+          "name": "2-9 텍스트 꾸미기",
+          "url": "homework_3/ex2-9.html"
+        },
+        {
+          "name": "2-8 pre 태그 사용하기",
+          "url": "homework_3/ex2-8.html"
+        }
+      ]
+    },
+    {
+      "date": "20230313",
+      "languages": ["html", "css", "js"],
+      "items": [
+        {
+          "name": "html+css+javascript",
+          "url": "homework_2/test3.html"
+        },
+        {
+          "name": "html+css",
+          "url": "homework_2/test2.html"
+        },
+        {
+          "name": "html",
+          "url": "homework_2/test1.html"
+        }
+      ]
+    },
+    {
+      "date": "20230313",
+      "languages": ["html"],
+      "items": [
+        {
+          "date": "20230313",
+          "name": "hello",
+          "url": "homework_1/hello.html"
+        }
+      ]
+    }
+  ]
+}

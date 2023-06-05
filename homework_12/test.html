@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML5 문서 구조 시맨틱 태그 사용</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      header {
+        width: 100%;
+        height: 20%;
+        background: rgba(0, 0, 0, 0.03);
+      }
+
+      nav {
+        width: 20%;
+        height: 72%;
+        float: left;
+        background: rgb(220, 220, 220);
+      }
+
+      section {
+        width: 80%;
+        height: 72%;
+        float: left;
+        background: rgb(255, 213, 213);
+        overflow: scroll;
+      }
+
+      footer {
+        width: 100%;
+        height: 8%;
+        clear: both;
+        background: rgb(111, 111, 111);
+      }
+
+      .headerTitle {
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .navWrapper {
+        padding: 14px;
+      }
+
+      .navTitle {
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .item {
+        padding-bottom: 20px;
+      }
+
+      .itemList {
+        padding: 14px;
+      }
+
+      .itemTitle {
+        font-size: 26px;
+        padding-bottom: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="headerWrapper">
+        <div class="headerTitle">2023081073 이진석</div>
+        <div class="headerContent" style="text-align: center">
+          저는 2004년 2월 18일 출생으로 15살 때부터 프로그래밍에 관심을 가져
+          다양한 언어를 접하며 개발을 접했습니다.
+        </div>
+        <div style="display: flex; justify-content: flex-end">
+          <img
+            src="../media/프로필.gif"
+            width="86"
+            height="86"
+            alt="사진없음"
+          />
+          <div class="profileText" style="padding: 5px; font-size: 14px">
+            이진석<br /><br />010-4912-9692<br /><br />diteh123@naver.com
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="navWrapper">
+        <div class="navTitle">목차</div>
+        <ul>
+          <li><a href="#item_1">연구분야</a></li>
+          <li><a href="#item_2">취미</a></li>
+          <li><a href="#item_3">생애</a></li>
+          <li><a href="test2.html">포토갤러리</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <div class="sectionWrapper">
+        <div class="itemList">
+          <div id="item_1" class="item">
+            <div class="itemTitle">연구분야</div>
+            <div class="itemContent">
+              C, C#, Java, Python, Html, Css, JS, SQL, Unity, React, 리버스
+              엔지니어링, 웹 해킹
+            </div>
+            <ul>
+              <li>
+                <a href="../index.html" target="_blank">HTML5+CSS+Javascript</a>
+              </li>
+              <li>
+                <a href="https://github.com/ljs0218" target="_blank">Github</a>
+              </li>
+              <li>
+                <a href="http://blog.naver.com/jinseog8461" target="_blank"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="item_2" class="item">
+            <div class="itemTitle">취미</div>
+            <div class="itemContent">
+              보안쪽에 관심이 생겨 Dreamhack 이라는 온라인 사이트를 접하며 웹
+              해킹을 주로 배우고 있습니다. 이를 통해 SQL Injection, XSS, CSRF
+              등등 배운 취약점 바탕으로 다양한 워게임 문제를 풀며 보안에 대한
+              지식을 쌓고 있습니다.
+            </div>
+            <div class="imageWrapper" style="padding-top: 16px">
+              <div style="padding-left: 68px">주요 취미</div>
+              <img src="../media/hacker.png" width="100" height="100" />
+              <img src="../media/secure-shield.png" width="100" height="100" />
+            </div>
+          </div>
+          <div id="item_3" class="item">
+            <div class="itemTitle">생애</div>
+            <div class="itemContent">가나다라 마바사 아자차카타파하</div>
+          </div>
+          <div id="item_4" class="item">
+            <div class="itemTitle">포토갤러리</div>
+            <div class="itemContent">가나다라 마바사 아자차카타파하</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footerWrapper">
+        <a href="#">설문조사</a>
+        <div style="color: white">Copyright 2022 by Kitae</div>
+      </div>
+    </footer>
+  </body>
+</html>

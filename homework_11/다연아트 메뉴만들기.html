@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>다연아트</title>
+    <style>
+      body {
+        background-color: #cfcfcf;
+      }
+
+      a {
+        text-decoration-line: none;
+        color: black;
+        margin: 5px;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      ul li {
+        float: left;
+      }
+
+      #titleMenubar ul li:not(:last-child)::after {
+        content: "|";
+      }
+
+      .headerWrapper {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .titleText {
+        font-size: 30px;
+      }
+
+      .titleText span {
+        color: green;
+      }
+
+      .contentWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 175, 0);
+      }
+
+      .categoryText {
+        color: white;
+      }
+
+      .categoryText:hover {
+        color: black;
+      }
+
+      #categoryMenubar .categoryText {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="headerWrapper">
+      <div class="titleText"><span>DAYUN</span> ART</div>
+      <nav id="titleMenubar">
+        <ul>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">마이페이지</a></li>
+          <li><a href="#">주문배송 조회</a></li>
+          <li><a href="#">장바구니</a></li>
+          <li><a href="#">이용안내</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="contentWrapper">
+      <nav id="categoryMenubar">
+        <ul>
+          <li><a class="categoryText" href="#">다연아트 소개</a></li>
+          <li><a class="categoryText" href="#">상품보기</a></li>
+          <li><a class="categoryText" href="#">시안 확인</a></li>
+          <li><a class="categoryText" href="#">고객 갤러리</a></li>
+          <li><a class="categoryText" href="#">공지사항</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>

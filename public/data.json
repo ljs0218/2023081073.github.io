@@ -1,5 +1,107 @@
-{
+datas = {
   "list": [
+    {
+      "date": "20230604",
+      "languages": ["html", "css"],
+      "items": [
+        {
+          "name": "다연아트 메뉴만들기",
+          "url": "homework_11/다연아트 메뉴만들기.html"
+        },
+        {
+          "name": "상품 레이아웃 만들기",
+          "url": "homework_11/상품레이아웃만들기.html"
+        },
+        {
+          "name": "예제 5-14",
+          "url": "homework_11/ex5-14.html"
+        },
+        {
+          "name": "예제 5-13",
+          "url": "homework_11/ex5-13.html"
+        },
+        {
+          "name": "예제 5-12",
+          "url": "homework_11/ex5-12.html"
+        },
+        {
+          "name": "예제 5-11",
+          "url": "homework_11/ex5-11.html"
+        },
+        {
+          "name": "예제 5-10",
+          "url": "homework_11/ex5-10.html"
+        },
+        {
+          "name": "연습문제 5-8",
+          "url": "homework_11/ex5-8.html"
+        }
+      ]
+    },
+    {
+      "date": "20230528",
+      "languages": ["html", "css"],
+      "items": [
+        {
+          "name": "수목원 안내",
+          "url": "homework_10/수목원안내.html"
+        },
+        {
+          "name": "상품 레이아웃 만들기",
+          "url": "homework_10/ex5-9.html"
+        },
+        {
+          "name": "예제 5-8",
+          "url": "homework_10/ex5-8.html"
+        },
+        {
+          "name": "예제 5-6",
+          "url": "homework_10/ex5-6.html"
+        },
+        {
+          "name": "예제 5-5",
+          "url": "homework_10/ex5-5.html"
+        },
+        {
+          "name": "예제 5-4",
+          "url": "homework_10/ex5-4.html"
+        },
+        {
+          "name": "예제 5-3",
+          "url": "homework_10/ex5-3.html"
+        }
+      ]
+    },
+    {
+      "date": "20230515",
+      "languages": ["html", "css"],
+      "items": [
+        {
+          "name": "5-2 relative 배치",
+          "url": "homework_9/ex5-2.html"
+        },
+        {
+          "name": "208-8 이미지 테두리 만들기",
+          "url": "homework_9/ex208-8.html"
+        },
+        {
+          "name": "208-7 :hover 활용",
+          "url": "homework_9/ex208-7.html"
+        },
+        {
+          "name": "4-20 div 박스에 그림자 넣기",
+          "url": "homework_9/ex4-20.html"
+        },
+        {
+          "name": "4-19 텍스트 그림자",
+          "url": "homework_9/ex4-19.html"
+        },
+        {
+          "name": "4-18 배경 꾸미기",
+          "url": "homework_9/ex4-18.html"
+        }
+      ]
+    },
     {
       "date": "20230501",
       "languages": ["html", "css"],
